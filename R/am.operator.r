@@ -6,6 +6,7 @@
 #' @param y numeric
 #' @return Numeric
 #' @seealso `%*na%`
+#' @export
 
 `%+na%` <- function(x, y) {
   ifelse(is.na(x), y, ifelse(is.na(y), x, x+y))
@@ -19,6 +20,7 @@
 #' @param y numeric
 #' @return Numeric
 #' @seealso `%+na%`
+#' @export
 
 `%*na%` <- function(x,y) {
   ifelse(is.na(x), y, ifelse(is.na(y), x, x*y))
@@ -32,6 +34,7 @@
 #' @param y numeric
 #' @return Logical vector of the length of x
 #' @seealso `%+na%`, `%*na%`
+#' @export
 #' @examples
 #' `%fin%`(c("a"," b","c","d","e"),c("a","d","e"))
 

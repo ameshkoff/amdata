@@ -5,6 +5,7 @@
 #' @param x numeric
 #' @return Numeric
 #' @seealso `%*na%`
+#' @export
 
 am.range01 <- function(x){
   (x - min(x)) / (max(x) - min(x))

@@ -6,6 +6,7 @@
 #' @param num_per_segment another argument
 #' @return Time (?)
 #' @seealso ...
+#' @export
 
 am.tdiff <- function(times
                             , num_per_segment = 60) {

@@ -6,6 +6,7 @@
 #' @param tol numeric: tolerance, treshold
 #' @return Logical
 #' @seealso ...
+#' @export
 
 amm.is.wholenumber <- function(x
                                , tol = .Machine$double.eps^0.5) {
