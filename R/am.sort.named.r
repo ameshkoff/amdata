@@ -7,6 +7,7 @@
 #' @param qnt numeric length of vector to be returned (You may cut vector to less length if you prefer)
 #' @return Logical
 #' @seealso ...
+#' @import data.table
 #' @export
 
 amm.sort.named <- function(vc.v, vc.n, qnt = NA) {
