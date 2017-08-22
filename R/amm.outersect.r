@@ -1,6 +1,8 @@
 #' Outersect (vector XOR)
 #'
-#' Outersect (vector XOR)
+#' Outersect (vector XOR).
+#' Author: @tonybreyal
+#' Reference: https://tonybreyal.wordpress.com/2011/11/29/outersect-the-opposite-of-rs-intersect-function/
 #'
 #' @param x first vector
 #' @param y second vector

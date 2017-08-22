@@ -1,6 +1,9 @@
-#' Scale to 0-1 range
+#' Time difference
 #'
-#' Scale numeric vector to 0-1 range. Source: http://stackoverflow.com/questions/5468280/scale-a-series-between-two-points
+#' It does something
+#' Source: Kaggle (?)
+#' Author: potterzot https://www.kaggle.com/potterzot (?)
+#' Reference: https://www.kaggle.com/potterzot/how-much-did-it-rain-ii/features/run/83496
 #'
 #' @param times let's try what is it
 #' @param num_per_segment another argument
@@ -9,7 +12,7 @@
 #' @export
 
 am.tdiff <- function(times
-                            , num_per_segment = 60) {
+                    , num_per_segment = 60) {
 
   n <- length(times)
   valid_time <- vector(mode="numeric", length = n)

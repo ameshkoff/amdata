@@ -30,8 +30,8 @@
 #'
 #' Asymmetric matching two vectors
 #'
-#' @param x numeric
-#' @param y numeric
+#' @param x vector
+#' @param srch vector
 #' @return Logical vector of the length of x
 #' @seealso `%+na%`, `%*na%`
 #' @export

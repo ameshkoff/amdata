@@ -9,9 +9,9 @@ amm.sort.named(vc.v, vc.n, qnt = NA)
 \arguments{
 \item{vc.v}{vector to be named}
 
-\item{qnt}{numeric length of vector to be returned (You may cut vector to less length if you prefer)}
+\item{vc.n}{vector of names}
 
-\item{tol}{vector of names}
+\item{qnt}{numeric length of vector to be returned (You may cut vector to less length if you prefer)}
 }
 \value{
 Logical

@@ -17,7 +17,9 @@ amm.outersect(x, y, ...)
 Vector containing only unique values (those do not have duplicates in other input vectors)
 }
 \description{
-Outersect (vector XOR)
+Outersect (vector XOR).
+Author: @tonybreyal
+Reference: https://tonybreyal.wordpress.com/2011/11/29/outersect-the-opposite-of-rs-intersect-function/
 }
 \seealso{
 ...

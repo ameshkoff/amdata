@@ -3,11 +3,14 @@
 #' Test if the number is the whole number
 #'
 #' @param vc.v vector to be named
-#' @param tol vector of names
+#' @param vc.n vector of names
 #' @param qnt numeric length of vector to be returned (You may cut vector to less length if you prefer)
 #' @return Logical
 #' @seealso ...
 #' @import data.table
+#' @import stringr
+#' @import fastmatch
+#' @importFrom stats setNames
 #' @export
 
 amm.sort.named <- function(vc.v, vc.n, qnt = NA) {

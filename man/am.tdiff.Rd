@@ -2,7 +2,7 @@
 % Please edit documentation in R/am.tdiff.r
 \name{am.tdiff}
 \alias{am.tdiff}
-\title{Scale to 0-1 range}
+\title{Time difference}
 \usage{
 am.tdiff(times, num_per_segment = 60)
 }
@@ -15,7 +15,10 @@ am.tdiff(times, num_per_segment = 60)
 Time (?)
 }
 \description{
-Scale numeric vector to 0-1 range. Source: http://stackoverflow.com/questions/5468280/scale-a-series-between-two-points
+It does something
+Source: Kaggle (?)
+Author: potterzot https://www.kaggle.com/potterzot (?)
+Reference: https://www.kaggle.com/potterzot/how-much-did-it-rain-ii/features/run/83496
 }
 \seealso{
 ...

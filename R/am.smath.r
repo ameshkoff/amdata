@@ -3,12 +3,12 @@
 #' Test if the number is the whole number
 #'
 #' @param x numeric
-#' @param tol numeric: tolerance, treshold
+#' @param threshold numeric: tolerance, threshold
 #' @return Logical
 #' @seealso ...
 #' @export
 
 amm.is.wholenumber <- function(x
-                               , tol = .Machine$double.eps^0.5) {
-  abs(x - round(x)) < tol
+                               , threshold = .Machine$double.eps ^ 0.5) {
+  abs(x - round(x)) < threshold
 }

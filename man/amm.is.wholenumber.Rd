@@ -4,12 +4,12 @@
 \alias{amm.is.wholenumber}
 \title{Test if is whole number}
 \usage{
-amm.is.wholenumber(x, tol = .Machine$double.eps^0.5)
+amm.is.wholenumber(x, threshold = .Machine$double.eps^0.5)
 }
 \arguments{
 \item{x}{numeric}
 
-\item{tol}{numeric: tolerance, treshold}
+\item{threshold}{numeric: tolerance, threshold}
 }
 \value{
 Logical

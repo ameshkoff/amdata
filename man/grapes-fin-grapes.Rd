@@ -7,9 +7,9 @@
 x \%fin\% srch
 }
 \arguments{
-\item{x}{numeric}
+\item{x}{vector}
 
-\item{y}{numeric}
+\item{srch}{vector}
 }
 \value{
 Logical vector of the length of x
